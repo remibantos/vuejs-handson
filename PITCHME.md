@@ -269,7 +269,22 @@ export default {
 
 ---
 
-Rename HelloWorld.vue component to Swapui.vue
+Rename HelloWorld.vue to Swapui.vue & replace App.vue content with
+```html
+<template>
+    <div class="swapui">
+        <h1>Swapui</h1>
+    </div>
+</template>
+<script>
+  export default {
+    name: 'Swapui'
+  }
+</script>
+<style scoped>
+
+</style>
+```
 
 ---
 
