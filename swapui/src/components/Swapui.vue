@@ -1,11 +1,12 @@
 <template>
     <div class="swapui">
-        <h1>Swapui</h1>
+        <h1>{{msg}}</h1>
     </div>
 </template>
 <script>
   export default {
-    name: 'Swapui'
+    name: 'Swapui',
+    props: ['msg']
   }
 </script>
 <style scoped>

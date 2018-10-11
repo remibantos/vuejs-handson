@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <swapui/>
+    <swapui msg="A long time ago..."/>
   </div>
 </template>
 
