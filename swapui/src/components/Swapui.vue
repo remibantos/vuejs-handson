@@ -1,7 +1,7 @@
 <template>
     <div class="swapui">
         <h1>{{msg}}</h1>
-        <h2>because we are {{date}}</h2>
+        <h2 :title="dateTitle">because we are {{date}}</h2>
     </div>
 </template>
 <script>
@@ -12,7 +12,8 @@
     props: ['msg'],
     data () {
       return {
-        date: moment().format('LLLL')
+        date: moment().format('LLLL'),
+        dateTitle: 'This is the date'
       }
     }
   }
