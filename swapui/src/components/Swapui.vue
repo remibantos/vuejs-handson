@@ -5,12 +5,14 @@
     </div>
 </template>
 <script>
+
+  import moment from 'moment'
   export default {
     name: 'Swapui',
     props: ['msg'],
     data () {
       return {
-        date: new Date()
+        date: moment().format('LLLL')
       }
     }
   }
