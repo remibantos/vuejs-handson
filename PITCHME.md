@@ -515,9 +515,22 @@ Thanks to @vue/cli
 $ vue add vuetify
 ? Use a pre-made template? (will replace App.vue and HelloWorld.vue) Yes
 ? Use custom theme? No
+? Use custom properties (CSS variables)? No
+? Select icon font md
+? Use fonts as a dependency (for Electron or offline)? No
 ? Use a-la-carte components? No
-? Use babel/polyfill? No
+? Use babel/polyfill? Yes
+? Select locale en
+
 
 ```
+
+---
+
+### New template
+
+We have selected a pre-made template usage for Vuetify
+
+Let's revert App.vue modification
 
 ---
