@@ -12,19 +12,20 @@ https://gitpitch.com/remibantos/vuejs-handson
 
 ### What is VueJS ?
 <!-- .slide: style="text-align: left;"> -->
-@size[0.7em](*"Vue, pronounced /vjuː/ like view, is a progressive framework for building user interfaces.<br/>Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.<br/>The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.<br/>Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries."*)
+<span style="text-size:0.7em">*"Vue, pronounced /vjuː/ like view, is a progressive framework for building user interfaces.<br/>Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.<br/>The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.<br/>Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries."*)
 
 ---
 
 ### History
-@div[left-50]
-![Alt](https://pbs.twimg.com/profile_images/888432310504370176/mhoGA4uj_400x400.jpg "Evan You")
-@divend
-@div[right-50]
-@size[0.8em](In February 2014, Evan You publish the first VueJS version)
+<div style="float:left; width:50%; padding:1em">
+
+![Alt](https://avatars.githubusercontent.com/u/499550?v=4 "Evan You")
+
+</div>
+<div style="float:right; width:50%">
+<span style="text-size:0.8em">In February 2014, Evan You publish the first VueJS version)
 <br/>
-@size[0.7em](*"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?”*)
-@divend
+<span style="text-size:0.7em">*"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?”*)
 
 ---
 
@@ -32,7 +33,7 @@ https://gitpitch.com/remibantos/vuejs-handson
 
 ---?image=https://d.ibtimes.co.uk/en/full/1473536/john-mcafee-dark-web-hack-grandma.jpg&size=contain
 
-### @color[white](Accessible)
+### <span style="text-color:white">(Accessible)
 
 
 ---
@@ -42,7 +43,7 @@ https://gitpitch.com/remibantos/vuejs-handson
 
 ---?image=http://a406.idata.over-blog.com/600x398/1/57/40/12/Arts-Photo-Tableau/afp.jpg&size=contain
 
-### @color[white](Versatile)
+### <span style="text-color:white">(Versatile)
 
 ---
 
@@ -53,7 +54,7 @@ You can create templates in DOM, inline templates, or package them in a .vue com
 
 ---?image=https://i3.cpcache.com/product/419243731/Warp_Speed_Dark_T-Shirt_300x300.jpg&size=contain
 
-### @color[yellow](Performant)
+### <span style="text-color:yellow">(Performant)
 
 ---
 
@@ -236,7 +237,7 @@ h3 {
 
 ### Web components foundation
 <!-- .slide: style="text-align: left;"> -->
-@size[0.6em](*"The Web Components / Custom Elements spec allows you to define your own custom elements in the browser and the logic attached to them. It’s been a long time coming, but it’s almost here. The advantage of Web Components is that they are interoperable between any framework or library, or even Vanilla JS. Thanks to Vue’s small size, with the help of a plugin, you can create native custom elements from Vue components."*)
+<span style="text-size:0.6em">*"The Web Components / Custom Elements spec allows you to define your own custom elements in the browser and the logic attached to them. It’s been a long time coming, but it’s almost here. The advantage of Web Components is that they are interoperable between any framework or library, or even Vanilla JS. Thanks to Vue’s small size, with the help of a plugin, you can create native custom elements from Vue components."*)
 <img src="https://vuejs.org/images/components.png " alt="Component tree" style="width:70%"/>
 
 ---
@@ -288,7 +289,7 @@ Rename HelloWorld.vue to Swapui.vue & replace App.vue content with
 
 ---
 
-### @fa[cog fa-spin] Component props
+### Component props
 Provide "A long time ago..." string from App to Swapui component and replace "Swapui" string with it
 
 ---
@@ -342,7 +343,7 @@ export default {
 </style>
 ```
 --- 
-### @fa[cog fa-spin] Declarative rendering
+### Declarative rendering
 
 Add a data attribute named date valued to current date and display it under the '&lt;h1&gt;...&lt;h1&gt;' line in a '&lt;h2&gt;&lt;/h2&gt;' element
 
@@ -370,7 +371,7 @@ data() {
 
 ```
 --- 
-### @fa[cog fa-spin] External lib
+### External lib
 
 Import momentjs lib and format current date to a pretty one
 
@@ -401,7 +402,7 @@ To install it, you can run: npm install --save moment
 ```
 ---
 
-### @fa[cog fa-spin] Attribute binding
+### Attribute binding
 
 Add "This is the date" title to the date h2 element that we added bound to a new data element named 'dateTitle'
 
@@ -432,7 +433,7 @@ v-bind shortcut: ":'
 
 --- 
 
-### @fa[cog fa-spin] Loops
+### Loops
 
 Add an array of strings data element named "characters" which contains 'Boba Fett' and 'Leia Skywalker' items
 
@@ -493,7 +494,7 @@ https://vuejs.org/v2/guide/list.html#key
 
 ---
 
-### @fa[cog fa-spin] Conditionals
+### Conditionals
 
 Add a condition with v-if directive in order not to display a character if named 'Boba Fett'
 
