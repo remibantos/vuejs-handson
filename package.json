@@ -1,7 +1,7 @@
 {
-  "name": "marp-cli-example",
-  "version": "0.0.0",
-  "author": "Yuki Hattori <yukihattori1116@gmail.com>",
+  "name": "vuejs-handson",
+  "version": "0.0.1",
+  "author": "Rémi Bantos",
   "license": "WTFPL",
   "private": true,
   "scripts": {
