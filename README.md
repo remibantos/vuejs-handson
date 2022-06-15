@@ -8,4 +8,4 @@ Present Vue.js, @vue/cli & build "swapui", a [swapi](https://swapi.co/) Single P
 https://www.npmjs.com/get-npm
 
 #### Slides
-https://gitpitch.com/remibantos/vuejs-handson
+TBF
