@@ -51,9 +51,10 @@ You can create templates in DOM, inline templates, or package them in a .vue com
   * [https://medium.com/js-dojo/whats-the-deal-with-vue-s-virtual-dom-3ed4fc0dbb20]
 
 ---
+### Lets code !
 
-# Lets code !
 ![Alt](https://s27389.pcdn.co/wp-content/uploads/2017/10/AdobeStock_164586542-1024x576.jpeg.webp "lets code")
+
 ---
 ### Prerequistes
 
