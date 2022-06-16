@@ -32,6 +32,7 @@ https://gitpitch.com/remibantos/vuejs-handson
 * Easy learning curve. 
 * An app can be built in a few minutes: [JSFiddle - "TODO List" Sample app](https://jsfiddle.net/Lsgc2rhr/9/?utm_source=website&utm_medium=embed&utm_campaign=Lsgc2rhr)
 
+---
 ### Versatile
 
 VueJS can be used for many different needs, in many different ways, you can create a small widget, a Single Page Application, components, 
@@ -39,6 +40,7 @@ complex apps with routing, state management, ...
 <br/>
 You can create templates in DOM, inline templates, or package them in a .vue component.
 
+---
 ### Performant
 
 * VueJS, like other modern framework use virtual dom where the DOM can be represented as a data structure in Javascript
@@ -51,7 +53,7 @@ You can create templates in DOM, inline templates, or package them in a .vue com
 ---
 
 # Lets code !
-
+![Alt](https://s27389.pcdn.co/wp-content/uploads/2017/10/AdobeStock_164586542-1024x576.jpeg.webp "lets code")
 ---
 ### Prerequistes
 
