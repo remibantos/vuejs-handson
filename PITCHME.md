@@ -10,20 +10,21 @@ https://gitpitch.com/remibantos/vuejs-handson
 
 ---
 ### What is VueJS ?
-<!-- .slide: style="text-align: left;"> -->
-<span style="text-size:0.7em">*"Vue, pronounced /vjuː/ like view, is a progressive framework for building user interfaces.<br/>Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.<br/>The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.<br/>Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries."*)
+*"Vue, pronounced /vjuː/ like view, is a progressive framework for building user interfaces.<br/>Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.<br/>The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.<br/>Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries."*
 
 ---
 
 ### History
-<p style="columns:2">
+<div style="column-count: 2">
+
 ![Alt](https://avatars.githubusercontent.com/u/499550?v=4 "Evan You")
+<p>
+  In February 2014, Evan You publish the first VueJS version)
+  <br/>
+  <i>"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?"</i>
 </p>
-<p style="columns:2">
-<span style="text-size:0.8em">In February 2014, Evan You publish the first VueJS version)</span>
-<br/>
-<span style="text-size:0.7em">*"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?”*</span>
-</p>
+</div>
+
 
 ---
 ### Accessible
@@ -219,8 +220,9 @@ h3 {
 
 ### Web components foundation
 <!-- .slide: style="text-align: left;"> -->
-<span style="text-size:0.6em">*"The Web Components / Custom Elements spec allows you to define your own custom elements in the browser and the logic attached to them. It’s been a long time coming, but it’s almost here. The advantage of Web Components is that they are interoperable between any framework or library, or even Vanilla JS. Thanks to Vue’s small size, with the help of a plugin, you can create native custom elements from Vue components."*)
-<img src="https://vuejs.org/images/components.png " alt="Component tree" style="width:70%"/>
+*"The Web Components / Custom Elements spec allows you to define your own custom elements in the browser and the logic attached to them. It’s been a long time coming, but it’s almost here. The advantage of Web Components is that they are interoperable between any framework or library, or even Vanilla JS. Thanks to Vue’s small size, with the help of a plugin, you can create native custom elements from Vue components."*
+
+<img src="https://vuejs.org/assets/components.7fbb3771.png " alt="Component tree" style="width:70%"/>
 
 ---
 
