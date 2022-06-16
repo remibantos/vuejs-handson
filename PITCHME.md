@@ -9,7 +9,6 @@ https://gitpitch.com/remibantos/vuejs-handson
 ![Alt](https://i.imgflip.com/2dyfd5.jpg "Thinking cat")
 
 ---
-
 ### What is VueJS ?
 <!-- .slide: style="text-align: left;"> -->
 <span style="text-size:0.7em">*"Vue, pronounced /vjuː/ like view, is a progressive framework for building user interfaces.<br/>Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.<br/>The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.<br/>Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries."*)
@@ -17,46 +16,29 @@ https://gitpitch.com/remibantos/vuejs-handson
 ---
 
 ### History
-<div style="float:left; width:50%; padding:1em">
-
+<p style="columns:2">
 ![Alt](https://avatars.githubusercontent.com/u/499550?v=4 "Evan You")
-
-</div>
-<div style="float:right; width:50%">
-<span style="text-size:0.8em">In February 2014, Evan You publish the first VueJS version)
+</p>
+<p style="columns:2">
+<span style="text-size:0.8em">In February 2014, Evan You publish the first VueJS version)</span>
 <br/>
-<span style="text-size:0.7em">*"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?”*)
+<span style="text-size:0.7em">*"I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?”*</span>
+</p>
 
 ---
-
-### In a few words...
-
----?image=https://d.ibtimes.co.uk/en/full/1473536/john-mcafee-dark-web-hack-grandma.jpg&size=contain
-
-### <span style="text-color:white">(Accessible)
-
-
----
+### Accessible
 
 * Easy learning curve. 
 * An app can be built in a few minutes: [JSFiddle - "TODO List" Sample app](https://jsfiddle.net/Lsgc2rhr/9/?utm_source=website&utm_medium=embed&utm_campaign=Lsgc2rhr)
 
----?image=http://a406.idata.over-blog.com/600x398/1/57/40/12/Arts-Photo-Tableau/afp.jpg&size=contain
-
-### <span style="text-color:white">(Versatile)
-
----
+### Versatile
 
 VueJS can be used for many different needs, in many different ways, you can create a small widget, a Single Page Application, components, 
 complex apps with routing, state management, ...
 <br/>
 You can create templates in DOM, inline templates, or package them in a .vue component.
 
----?image=https://i3.cpcache.com/product/419243731/Warp_Speed_Dark_T-Shirt_300x300.jpg&size=contain
-
-### <span style="text-color:yellow">(Performant)
-
----
+### Performant
 
 * VueJS, like other modern framework use virtual dom where the DOM can be represented as a data structure in Javascript
 * Good position in JS frameworks benchmarks
@@ -132,7 +114,7 @@ const MyDate = {
     template: '<h1>My date</h1>'
 }
 ```
-</div>
+</p>
 
 ---
 ### VueJS components
